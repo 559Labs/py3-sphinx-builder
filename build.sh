@@ -8,7 +8,7 @@ PIP_REQUIREMENTS_FILE=${PIP_REQUIREMENTS_FILE:=/sphinx/requirements.txt}
 
 # Install via the requirements file. 
 if [[ -e ${PIP_REQUIREMENTS_FILE} ]]; then
-  pip install -r ${PIP_REQUIREMENTS_FILE}
+  pip3 install -r ${PIP_REQUIREMENTS_FILE}
 fi
 
 cd ${SPHINX_SRC_DIR}
